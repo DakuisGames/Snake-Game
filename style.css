@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+}
+h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,00,0,0.5);
+}
+canvas {
+    border: 5px solid #ecf0f1;
+    background-color: #34495e;
+    box-shadow: 0 0 20px rgba(255,255,255,0.5);
+}
+#game-over {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+.hidden {
+    display: none;
+}
